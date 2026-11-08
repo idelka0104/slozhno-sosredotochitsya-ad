@@ -1,16 +1,25 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --brand-color: #db00ff;
+  --highlight-color: #000028;
+  --secondary-color: #ff0070;
+  --secondary-color-40: #ff007040;
+  --bg-image: url("../images/cover-image-dark.png");
+  --rec-visibility: visible;
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000028;
+    --text-color: #f1b2ce;
+    --accent-color: #ff0070;
+    --brand-color: #db00ff;
+    --highlight-color: #000028;
+    --secondary-color: #ff0070;
+    --secondary-color-40: #ff007040;
+    --bg-image: url("../images/cover-image-dark.png");
+    --rec-visibility: visible;
+  }
 }

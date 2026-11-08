@@ -1,15 +1,14 @@
 :root {
-
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
   --brand-color: #db00ff;
   --highlight-color: #000028;
   --secondary-color: #ff0070;
-  --secondary-color-transparent: #ff007040;
+  --secondary-color-40: #ff007040;
 
   --bg-image: url("../images/cover-image-dark.png");
   --rec-visibility: visible;
 
-  --font-family: "IBM Plex Mono", monospace;
+  --font-main: "IBM Plex Mono", monospace;
 }

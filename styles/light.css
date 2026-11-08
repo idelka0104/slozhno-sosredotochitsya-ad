@@ -5,7 +5,7 @@
   --brand-color: #ffc2e6;
   --highlight-color: #353430;
   --secondary-color: #353430;
-  --secondary-color-transparent: #35343040;
+  --secondary-color-40: #35343040;
   --bg-image: url("../images/cover-image-light.png");
   --rec-visibility: hidden;
 }
@@ -18,7 +18,7 @@
     --brand-color: #ffc2e6;
     --highlight-color: #353430;
     --secondary-color: #353430;
-    --secondary-color-transparent: #35343040;
+    --secondary-color-40: #35343040;
     --bg-image: url("../images/cover-image-light.png");
     --rec-visibility: hidden;
   }
