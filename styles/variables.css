@@ -1,14 +1,15 @@
 :root {
   --bg-color: #000028;
   --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --brand-color: #db00ff;
-  --highlight-color: #000028;
-  --secondary-color: #ff0070;
-  --secondary-color-40: #ff007040;
-
-  --bg-image: url("../images/cover-image-dark.png");
+  --accent: #ff0070;
+  --brand: #db00ff;
+  --highlight: #000028;
+  --secondary: #ff0070;
+  --secondary-40: #ff007040;
+  --bg-image: url(../images/cover-image-dark.png);
   --rec-visibility: visible;
-
-  --font-main: "IBM Plex Mono", monospace;
+  --font: "IBM Plex Mono", monospace;
+  --gap: 20px;
+  --padding-inline: 10px;
+  --padding-block: 10px;
 }

@@ -1,25 +1,40 @@
+
+
 :root.theme-light {
   --bg-color: #fff1f7;
   --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --brand-color: #ffc2e6;
-  --highlight-color: #353430;
-  --secondary-color: #353430;
-  --secondary-color-40: #35343040;
-  --bg-image: url("../images/cover-image-light.png");
+  --accent: #ff8dcb;
+  --brand: #ffc2e6;
+  --highlight: #353430;
+  --secondary: #353430;
+  --secondary-40: #35343040;
+  --bg-image: url(../images/cover-image-light.png);
   --rec-visibility: hidden;
 }
+
+.theme-light .page {
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  color: var(--text-color);
+}
+
+.theme-light .rec {
+  visibility: hidden;
+}
+
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
     --text-color: #353430;
-    --accent-color: #ff8dcb;
-    --brand-color: #ffc2e6;
-    --highlight-color: #353430;
-    --secondary-color: #353430;
-    --secondary-color-40: #35343040;
-    --bg-image: url("../images/cover-image-light.png");
+    --accent: #ff8dcb;
+    --brand: #ffc2e6;
+    --highlight: #353430;
+    --secondary: #353430;
+    --secondary-40: #35343040;
+    --bg-image: url(../images/cover-image-light.png);
     --rec-visibility: hidden;
   }
 }

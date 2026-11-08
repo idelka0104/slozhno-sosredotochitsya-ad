@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+*, *::before, *::after { box-sizing: border-box; }
 
 body {
   margin: 0 auto;
@@ -10,18 +6,10 @@ body {
   max-width: 1440px;
 }
 
-h1, h2, h3, h4, p {
-  margin: 0;
-}
+h1, h2, h3, h4, p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-button,
-a {
+button, a {
   color: currentColor;
   font: inherit;
 }
