@@ -1,4 +1,4 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
+
 
 *,
 *::before,
@@ -39,4 +39,10 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
