@@ -2,14 +2,13 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent: #ff0070;
-  --brand: #db00ff;
+  --brand: #db00ff; /* Убедись, что здесь именно этот цвет! */
   --highlight: #000028;
   --secondary: #ff0070;
   --secondary-40: #ff007040;
   --bg-image: url(../images/cover-image-dark.png);
   --rec-visibility: visible;
 }
-
 
 
 .theme-dark .page {
